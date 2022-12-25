@@ -1,5 +1,6 @@
 body {
     font-family: 'Noto Sans', sans-serif;
+    margin: 0;
 }
 
 .top-banner {
@@ -8,9 +9,8 @@ body {
 }
 
 .top-banner img {
-    text-align: right;
-    margin-left: 250px;
-    border-top: 100px;
+    margin-right: 20px;
+    margin-top: 50px;
 }
 
 h1 {
@@ -21,15 +21,59 @@ h1 {
     color: green;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .hire-me {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 10px 40px;
-    color: white;
+    color: rgb(61, 12, 238);
     font-weight: 700;
+}
+
+.topper {
+    background-image: url(/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.description-area {
+    background-image: url(/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(72, 0, 255);
+    border-left: 10px solid orange;
+}
+
+#shadow-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+}
+
+#full-shadow {
+    border-left: 7px solid;
+    border-image: linear-gradient(green, rgb(241, 10, 222));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
