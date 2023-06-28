@@ -73,10 +73,9 @@ h1 {
     border-image: linear-gradient(green, rgb(241, 10, 222));
     border-image-slice: 1;
 }
-.des{
-
+footer p {
     text-align: center;
 }
-footer p {
+.des{
     text-align: center;
 }
